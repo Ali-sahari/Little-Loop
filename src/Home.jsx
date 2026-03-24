@@ -1,6 +1,6 @@
 import النجمة from "./assets/النجمة.png";
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useContext } from "react";
 
 import { LangContext, CartContext ,ProInformation } from "./LangContext.JSX";
@@ -13,14 +13,6 @@ import Looo from "./assets/Looo.png";
 import Logoip from "./assets/Logoip.png";
 import Logoipsum from "./assets/Logoipsum.png";
 import ogo from "./assets/ogo.png";
-import item1 from "./assets/itemsimg/item1.webp";
-import item2 from "./assets/itemsimg/item2.webp";
-import item3 from "./assets/itemsimg/item3.webp";
-import item4 from "./assets/itemsimg/item4.webp";
-import item5 from "./assets/itemsimg/item5.webp";
-import item6 from "./assets/itemsimg/item6.webp";
-import item7 from "./assets/itemsimg/item7.webp";
-import item8 from "./assets/itemsimg/item8.webp";
 import childimage1 from "./assets/childimage1.webp";
 import childimage2 from "./assets/childimage2.webp";
 import childimage3 from "./assets/childimage3.webp";
@@ -34,7 +26,7 @@ import card5 from "./assets/card5.png";
 
 export default function Home() {
   const { addToCart , itemsList } = useContext(CartContext);
-  const { information, setInformation, Information }=useContext(ProInformation)
+  const {setInformation, Information }=useContext(ProInformation)
   const { lang, trasnaltions } = useContext(LangContext);
   const [sbscribe, setSubscribe] = useState(false);
   const [email, setEmail] = useState("");
