@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+.inp-focus::placeholder {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.inp-focus:focus::placeholder {
+  opacity: 1;
+}
+.SendMessage {
+  background-color: #212529;
+  transition: all 1s ease;
+}
+.SendMessage:hover {
+  background-color: #fcb900;
+  transition: all 1s ease;
+  color: black;
+}
+.btn2fa-play {
+  background: none;
+  border: none;
+  border: #e6eaec solid 1px;
+  padding: 14px;
+  transition: all 0.5s ease;
+}
+.btn2fa-play:hover {
+  background-color: #fcb900;
+  transition: all 0.5s ease;
+}
+.up-right {
+  color: white;
+  background-color: #212529;
+  padding: 14px;
+  transition: all 0.5s ease;
+  border: none;
+}
+.up-right:hover {
+  background-color: #fcb900;
+
+  transition: all 0.5s ease;
+}
+@media (max-width: 768px) {
+  .Where {
+    text-align: center;
+    font-size: 2.6rem !important;
+  }
+  .Explore {
+    text-align: center;
+  }
+  .star {
+    top: -1400px !important;
+    left: 100px;
+  }
+  .itemBtn{
+  left: 320px !important;
+  top: -340px !important;
+}
+.Get{
+  left: 204px !important;
+}
+.row-top{
+  margin-top: -270px !important;
+}
+  #navbarnav {
+    width: 300px;
+  }
+}
+.btn3-tw {
+  position: relative;
+  top: -150px;
+  left: 50px;
+}
+.btn3 {
+  border: none;
+}
+.btn3:hover {
+  background-color: #fcb900;
+
+  transition: all 0.5s ease;
+}
+
+.productcategoryimagetoys {
+  border-radius: 20px !important;
+  transition: transform 0.4s ease !important;
+}
+
+.productcategoryimagetoys:hover {
+  transform: scale(1.3) !important;
+}
+.homecta3image {
+  transition: all 0.5s ease;
+  transform: scale(1);
+}
+
+.divHomecta3image:hover {
+  .homecta3image {
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+  }
+}
+
+.divHomecta2image:hover {
+  .homecta2image {
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+  }
+}
+.homecta2image {
+  transition: all 0.5 ease;
+}
+.orange {
+  color: black;
+  
+
+  transition: all 0.5s ease;
+}
+.orange:hover {
+color: #fcb900 !important;
+  transition: all 0.5s ease
+  !important;
+}
+.orange {
+  color: black;
+  transition: all 0.5s ease !important;
+}
+.btn4 {
+  color: white;
+  background-color: #212529;
+  border: none;
+  transition: all 0.5s ease;
+}
+.btn4:hover {
+  background-color: #fcb900;
+  
+  transition: all 0.5s ease;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+.carousel-indicators{
+  bottom: -30px;
+}
+.accordion-button {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.accordion-item {
+  border: none !important;
+}
+.img-big-item:hover{
+.img-big{
+  transform: scale(1.1) !important;
+  transition: all 0.3s;
+}
+}
+.img-big{
+  transition: all 0.3s;
+}
+.warningbtn{  
+  transition: all 0.5s;
+  background-color:#212529;
+  color: white;
+  border: none;
+  font-weight: 600;
+  
+}
+.warningbtn:hover{
+  transition: all 0.5s;
+  background-color: #fcb900;
+  color: #212529;
+}
+.borderitems{
+  border-bottom: #e6eaec solid 1px;
+}
+.form-chek:focus{  
+   outline: none;
+}
+@media (max-width: 768px) {
+.navbar-nav li{
+  font-size: 1.7rem !important;
+  font-weight: bold !important;
+}
+.custom-offcanvas {
+  width: 85% !important;   
+  max-width: 450px;       
+}
+.itemBtn{
+  left: 11.3rem !important;
+  top: -13rem !important;
+}
+.itemBtn2{
+  left: 9.3rem !important;
+  top: -11rem !important;
+}
+.Get{
+  left: 150px !important;
+}
+}
+.icon{
+  color: #576471 !important;
+}
+.icon:hover{
+  color: #FDB016 !important;
+}
+.px-10 {
+  padding-right: 10rem !important;
+  padding-left: 10rem !important;
+}
+.rowshop input,textarea{
+background-color: #F9FAFB !important;
+border: none;
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+.Where{
+ font-size: 4rem !important; 
+}  
+.container-home{
+  margin-top: 12rem !important;
+}
+.btn1{
+  font-size: 0.8rem !important;
+}
+.row-top{
+  margin-top: -20rem !important;
+}
+.productcategoryimagetoys{
+  height: 31rem !important;
+}
+.itemBtn{
+  left: 11.3rem !important;
+  top: -13rem !important;
+}
+.itemBtn2{
+  left: 9.3rem !important;
+  top: -11rem !important;
+}
+.btnKey{
+  font-size: 0.7rem !important;
+}
+.thenumber{
+  font-size: 0.7rem;
+}
+}
