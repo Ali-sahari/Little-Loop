@@ -14,10 +14,10 @@ export default function Shop({ item }) {
     const { addToCart, itemsshopList } = useContext(CartContext)
     const [selectedColor, setSelectedColor] = useState(null);
     const [selectedCategory, setSelectedCategory] = useState(null);
-    const [priceRange, setPriceRange] = useState([0, 50]);  
+    const [priceRange, setPriceRange] = useState([0, 50]);
 
 
-    
+
     const filteredProducts = itemsshopList.filter((item) => {
         const colorMatch = selectedColor ? item.color === selectedColor : true;
         const categoryMatch = selectedCategory ? item.category === selectedCategory : true;
@@ -90,7 +90,7 @@ export default function Shop({ item }) {
                                             <div className="img-big-item ">
                                                 <Link onClick={() => setInformation(item.on)} to="/ProductInformation"><img src={item.img} className="img-fluid img-big" alt="" /></Link>
                                                 {/* اbtn */}
-                                                <div className="" style={{opacity:"0"}}>
+                                                <div className="" style={{ opacity: "0" }}>
                                                     <button
                                                         className="itemBtn2"
                                                         onClick={() => addToCart(item)}
@@ -167,7 +167,7 @@ export default function Shop({ item }) {
                                                             border: "none",
                                                             width: "100%",
                                                             background: "none",
-                                                            fontSize:"0.9rem"
+                                                            fontSize: "0.9rem"
                                                         }}
                                                     >
                                                         {trasnaltions[lang][item.btnKey]}

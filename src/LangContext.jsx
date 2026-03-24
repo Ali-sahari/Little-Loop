@@ -42,7 +42,6 @@ export function CartProvider({ children, copon }) {
     { id: 2, img: item2, titleitem: "itemh12", descKey: "itemp2", priceKey: 25.0, btnKey: "itembtn2", on: "item2", heart: "fa-regular fa-heart", shuffle: "fa-solid fa-shuffle", eye: "fa-regular fa-eye", },
     { id: 3, img: item3, titleitem: "itemh13", descKey: "itemp3", priceKey: 15.0, btnKey: "itembtn3", on: "item3", heart: "fa-regular fa-heart", shuffle: "fa-solid fa-shuffle", eye: "fa-regular fa-eye", },
     { id: 4, img: item4, titleitem: "itemh14", descKey: "itemp4", priceKey: 45.0, btnKey: "itembtn4", on: "item4", heart: "fa-regular fa-heart", shuffle: "fa-solid fa-shuffle", eye: "fa-regular fa-eye", },
-,
   ];
 
   // يقوم ب سؤال السلة هل يوجد قيمة اسمها كارد؟اذا في بجيب القيمة اما اذا لا برجعها فاضية و عند التغيير يرجع يحفظ يلي ضفتو 

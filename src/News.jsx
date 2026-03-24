@@ -58,10 +58,10 @@ export default function News() {
               <div className="">
                 <div className="row mt-5 rounded-4 " key={item.id}>
                   <div className="col-md-5    divHomecta3image ">
-                    <div className="rounded-4 " style={{ overflow: "hidden",height:"100%" }}>
+                    <div className="rounded-4 " style={{ overflow: "hidden", height: "100%" }}>
                       <img
                         src={item.img}
-                        style={{height:"100%"}}
+                        style={{ height: "100%" }}
                         alt=""
                         className="img-fluid   rounded-4  w-100 homecta3image"
                       />
