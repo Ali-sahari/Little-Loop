@@ -18,7 +18,7 @@ import {
   CartProvider,
   ProInformation,
   CartContext,
-} from "./LangContext.JSX";
+} from "./LangContext.jsx";
 
 import item1 from "./assets/itemsimg/item1.webp";
 import item2 from "./assets/itemsimg/item2.webp";
