@@ -7,7 +7,7 @@ import Footer from "./Footer";
 import Checkout from "./Checkout";
 import ContactUs from "./ContactUs";
 import Cart from "./Cart";
-import WishList from "./assets/Wishlist.JSX";
+import WishList from "./assets/Wishlist.jsx";
 import News from "./News";
 import ForgetPassword from "./ForgetPassword";
 import ProductInformation from "./ProductInformation";
