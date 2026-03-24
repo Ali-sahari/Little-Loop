@@ -11,7 +11,7 @@ import WishList from "./assets/Wishlist.jsx";
 import News from "./News";
 import ForgetPassword from "./ForgetPassword";
 import ProductInformation from "./ProductInformation";
-import {  useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Shop from "./Shop";
 import {
   LangContext,
@@ -36,17 +36,17 @@ import item13 from "./assets/myitemsimg/item13.png"
 
 function App() {
   const [lang, setLang] = useState(() => {
-  return localStorage.getItem("lang") || "en";
-});
-useEffect(() => {
-  localStorage.setItem("lang", lang);
-}, [lang]);
+    return localStorage.getItem("lang") || "en";
+  });
+  useEffect(() => {
+    localStorage.setItem("lang", lang);
+  }, [lang]);
 
   const trasnaltions = {
     en: {
       // nav bar items
       // ==========================WishList============================
-      FeaturedProducts:"Featured Products",
+      FeaturedProducts: "Featured Products",
       AuthMyAccount: "My account",
       ForgetPasswordText:
         "Lost your password? Please enter your username or email address. You will receive a link via email.",
@@ -131,7 +131,7 @@ useEffect(() => {
       btn3: "VIEW OFFER",
       New2: "New Shoes Collection",
       tw2: "10",
-      Off2: "%  Off",      
+      Off2: "%  Off",
       New4: "New Shoes Collection",
       tw4: "12",
       btn5: "VIEW All Product",
@@ -205,7 +205,7 @@ useEffect(() => {
       Subscribe: "Subscribe",
       subscribing: "Thank you for subscribing to our newsletter!",
       // ========================== Navbar ===================
-      Home: "Home",      
+      Home: "Home",
       News: "News",
       AboutUs: "About Us",
       ContactUs: "Contact Us ",
@@ -346,7 +346,7 @@ useEffect(() => {
       DateExample: "February 20, 2025",
 
       NewCollection: "New Collection",
-      
+
       ViewOffer: "View Offer",
 
       BestSelling: "Best Selling",
@@ -406,9 +406,9 @@ useEffect(() => {
       Sweaters: "Sweaters",
       Share: "Share your love",
       GuaranteedSafeCheckout: "Guaranteed Safe Checkout",
-      Description: "Description",      
+      Description: "Description",
       Mus: "Mus quam tristique risus dictum ipsum lacinia eleifend sit. Molestie congue natoque tincidunt, quisque semper accumsan hac. Sociosqu sociosqu fames volutpat potenti aliquam habitant placerat. Nisl euismod posuere consequat donec turpis.",
-      Lectus: "Lectus iaculis rhoncus proin, malesuada vitae vehicula. Varius justo neque morbi fusce nisi vehicula aliquet. Tortor neque luctus cubilia dictumst tempus aliquet.",            
+      Lectus: "Lectus iaculis rhoncus proin, malesuada vitae vehicula. Varius justo neque morbi fusce nisi vehicula aliquet. Tortor neque luctus cubilia dictumst tempus aliquet.",
       Color: "Color",
       colores: "White, Beige, Green",
       Size: "Size",
@@ -418,17 +418,17 @@ useEffect(() => {
       Be: "Be the first to review “Montes Dictum”",
       Youremailaddress: "Your email address will not be published. Required fields are marked *",
       Yourrating: "Your rating *",
-      Name: "Name",      
+      Name: "Name",
       ReviewTitle: 'Review Title',
       Yourreview: 'Your review ',
       thebox: " Save my name, email, and website in this browser for the next time I comment.",
       theboxbtn: "submit"
-      
+
       // ? item1 end
 
     },
     ar: {
-      FeaturedProducts:"المنتجات المميزة",
+      FeaturedProducts: "المنتجات المميزة",
       // nav bar items
       // ==========================WishList============================
       AuthMyAccount: "حسابي",
@@ -519,7 +519,7 @@ useEffect(() => {
       btn3: "عرض العرض",
       New2: "مجموعة الأحذية الجديدة",
       tw2: "10",
-      Off2: "% خصم",      
+      Off2: "% خصم",
       New4: "مجموعة الأحذية الجديدة",
       tw4: "12",
       btn5: "عرض جميع المنتجات",
@@ -676,7 +676,7 @@ useEffect(() => {
 
       //  ========================= Checkout =========================
       Checkout: "إتمام الشراء",
-      Billingdetails: "تفاصيل الفوترة",      
+      Billingdetails: "تفاصيل الفوترة",
       CountryRegion: "الدولة / المنطقة",
       Streetaddress: "عنوان الشارع",
       Streetaddresspl1: "رقم المنزل واسم الشارع",
@@ -690,7 +690,7 @@ useEffect(() => {
       Order: "ملاحظات الطلب (اختياري)",
       Notes: "ملاحظات حول طلبك، مثل ملاحظات خاصة بالتوصيل.",
       Yourorder: "طلبك",
-      Product: "المنتج",      
+      Product: "المنتج",
       Sorry: "عذرًا، يبدو أنه لا توجد طرق دفع متاحة. يرجى الاتصال بنا إذا كنت بحاجة إلى مساعدة أو ترغب في ترتيبات بديلة.",
       personal: "سيتم استخدام بياناتك الشخصية لمعالجة طلبك ودعم تجربتك عبر هذا الموقع ولأغراض أخرى موضحة في سياسة الخصوصية.",
       placeorder: "إتمام الطلب",
@@ -721,7 +721,7 @@ useEffect(() => {
       AuthorName: "مايكل",
       DateExample: "20 فبراير 2025",
 
-      NewCollection: "مجموعة جديدة",      
+      NewCollection: "مجموعة جديدة",
       ViewOffer: "عرض العرض",
 
       BestSelling: "الأكثر مبيعًا",
@@ -773,7 +773,7 @@ useEffect(() => {
       Sweaters: "كنزات",
       Share: "شارك حبك",
       GuaranteedSafeCheckout: "الدفع آمن ومضمون",
-      Description: "الوصف",      
+      Description: "الوصف",
       Reviews: "التقييمات (0)",
       Mus: "تفاصيل إضافية حول المنتج تشمل الخصائص والمميزات لضمان أفضل تجربة.",
       Lectus: "معلومات عن التصميم والخامات المستخدمة.",
@@ -785,7 +785,7 @@ useEffect(() => {
       Be: "كن أول من يقيم “Montes Dictum”",
       Youremailaddress: "لن يتم نشر بريدك الإلكتروني. الحقول المطلوبة محددة بعلامة *",
       Yourrating: "تقييمك *",
-      Name: "الاسم",      
+      Name: "الاسم",
       ReviewTitle: "عنوان التقييم",
       Yourreview: "تقييمك",
       thebox: "احفظ اسمي وبريدي الإلكتروني وموقعي في هذا المتصفح للزيارة القادمة.",
@@ -795,7 +795,7 @@ useEffect(() => {
     tr: {
       // nav bar items
       // ==========================WishList============================
-      FeaturedProducts:"Öne Çıkan Ürünler",
+      FeaturedProducts: "Öne Çıkan Ürünler",
       AuthMyAccount: "Hesabım",
       ForgetPasswordText: "Şifrenizi mi unuttunuz? Lütfen kullanıcı adınızı veya e-posta adresinizi girin. Size bir bağlantı e-posta ile gönderilecektir.",
       AuthUsernameOrEmail: "Kullanıcı adı veya e-posta adresi",
@@ -884,7 +884,7 @@ useEffect(() => {
       btn3: "TEKLİFİ GÖRÜNTÜLE",
       New2: "Yeni Ayakkabı Koleksiyonu",
       tw2: "10",
-      Off2: "% İndirim",      
+      Off2: "% İndirim",
       New4: "Yeni Ayakkabı Koleksiyonu",
       tw4: "12",
       btn5: "TÜM ÜRÜNLERİ GÖRÜNTÜLE",
@@ -1056,7 +1056,7 @@ useEffect(() => {
       Order: "Sipariş Notları (opsiyonel)",
       Notes: "Siparişinizle ilgili notlar, örn. teslimat için özel notlar.",
       Yourorder: "Siparişiniz",
-      Product: "Ürün",      
+      Product: "Ürün",
       Sorry: "Üzgünüz, mevcut bir ödeme yöntemi yok gibi görünüyor. Yardım için lütfen bizimle iletişime geçin veya alternatif düzenlemeler yapın.",
       personal: "Kişisel verileriniz siparişinizi işlemek, bu site deneyiminizi desteklemek ve gizlilik politikamızda belirtilen diğer amaçlar için kullanılacaktır.",
       placeorder: "Siparişi Tamamla",
@@ -1087,7 +1087,7 @@ useEffect(() => {
       AuthorName: "Michael",
       DateExample: "20 Şubat 2025",
 
-      NewCollection: "Yeni Koleksiyon",      
+      NewCollection: "Yeni Koleksiyon",
       ViewOffer: "Teklifi Gör",
 
       BestSelling: "En Çok Satanlar",
@@ -1152,7 +1152,7 @@ useEffect(() => {
       Be: "“Montes Dictum” için ilk yorumu siz yapın",
       Youremailaddress: "E-posta adresiniz yayınlanmayacaktır. Zorunlu alanlar * ile işaretlenmiştir",
       Yourrating: "Puanınız *",
-      Name: "İsim",      
+      Name: "İsim",
       ReviewTitle: "Yorum Başlığı",
       Yourreview: "Yorumunuz",
       thebox: "Bu tarayıcıda bir sonraki yorumunuz için adımı, e-posta adresimi ve web sitemi kaydet.",
@@ -1162,14 +1162,14 @@ useEffect(() => {
   };
 
   const [information, setInformation] = useState(() => {
-  const saved = localStorage.getItem  ("productInformation");
-  return saved ? JSON.parse(saved) : null;
-});
-useEffect(() => {
-  if (information) {
-    localStorage.setItem("productInformation", JSON.stringify(information));
-  }
-}, [information]);
+    const saved = localStorage.getItem("productInformation");
+    return saved ? JSON.parse(saved) : null;
+  });
+  useEffect(() => {
+    if (information) {
+      localStorage.setItem("productInformation", JSON.stringify(information));
+    }
+  }, [information]);
 
   const Information = {
     item1: {
@@ -1205,7 +1205,7 @@ useEffect(() => {
       Yourreview2: trasnaltions[lang].Yourreview,
       thebox2: trasnaltions[lang].thebox,
       theboxbtn2: trasnaltions[lang].theboxbtn,
-    },  
+    },
     item2: {
       image1: item2,
       h1item: trasnaltions[lang].FamesPrimis,
@@ -1410,7 +1410,7 @@ useEffect(() => {
       thebox2: trasnaltions[lang].thebox,
       theboxbtn2: trasnaltions[lang].theboxbtn,
     },
-     item8: {
+    item8: {
       image1: item8,
       h1item: trasnaltions[lang].FamesPrimis,
       pprice: "$15.00",
@@ -1444,7 +1444,7 @@ useEffect(() => {
       thebox2: trasnaltions[lang].thebox,
       theboxbtn2: trasnaltions[lang].theboxbtn,
     },
-     item9: {
+    item9: {
       image1: item9,
       h1item: trasnaltions[lang].FamesPrimis,
       pprice: "$40.00",
@@ -1478,7 +1478,7 @@ useEffect(() => {
       thebox2: trasnaltions[lang].thebox,
       theboxbtn2: trasnaltions[lang].theboxbtn,
     },
-     item10: {
+    item10: {
       image1: item10,
       h1item: trasnaltions[lang].FamesPrimis,
       pprice: "$45.00",
@@ -1512,7 +1512,7 @@ useEffect(() => {
       thebox2: trasnaltions[lang].thebox,
       theboxbtn2: trasnaltions[lang].theboxbtn,
     },
-     item11: {
+    item11: {
       image1: item11,
       h1item: trasnaltions[lang].FamesPrimis,
       pprice: "$14.00",
@@ -1546,7 +1546,7 @@ useEffect(() => {
       thebox2: trasnaltions[lang].thebox,
       theboxbtn2: trasnaltions[lang].theboxbtn,
     },
-     item12: {
+    item12: {
       image1: item12,
       h1item: trasnaltions[lang].FamesPrimis,
       pprice: "$24.00",
@@ -1580,7 +1580,7 @@ useEffect(() => {
       thebox2: trasnaltions[lang].thebox,
       theboxbtn2: trasnaltions[lang].theboxbtn,
     },
-     item13: {
+    item13: {
       image1: item13,
       h1item: trasnaltions[lang].FamesPrimis,
       pprice: "$54.00",
@@ -1614,7 +1614,7 @@ useEffect(() => {
       thebox2: trasnaltions[lang].thebox,
       theboxbtn2: trasnaltions[lang].theboxbtn,
     },
-    
+
   };
   return (
     <>
